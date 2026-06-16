@@ -1,23 +1,6 @@
 <div align="center">
 
-```
-$ whoami
-> Gaurav Joshi
-$ cat status.txt
-> AI/ML Engineer in training | B.Tech CSE (AI/ML) @ GEHU
-$ ls currently_building/
-> HaathSe   CODE-Sherpa   PDF-RAG-APP
-```
-
-</div>
-
-<br>
-
-<div align="center">
-
-### ⚡ deterministic structure. ai-narrated explanation.
-
-I build things at the intersection of **LLMs, RAG pipelines, and full-stack systems** — shipping live, not just prototyping.
+<img src="terminal-banner.svg" width="100%" alt="terminal banner" />
 
 </div>
 
@@ -70,10 +53,10 @@ End-to-end RAG system for PDF Q&A. Citation-enforced answers, score-threshold re
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=07080F&title_color=FF6240&icon_color=FF6240&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=midnight-purple&hide_border=true&bg_color=07080F&title_color=FF6240&text_color=c9d1d9" width="38%" />
+<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=c9d1d9" width="38%" />
 
-<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&hide_border=true&background=07080F&ring=FF6240&fire=FF6240&currStreakLabel=FF6240" width="60%" />
+<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" width="60%" />
 
 </div>
 
@@ -83,9 +66,9 @@ End-to-end RAG system for PDF Q&A. Citation-enforced answers, score-threshold re
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-07080F?style=for-the-badge&logo=github&logoColor=FF6240)](https://github.com/GoLu-Jii)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-07080F?style=for-the-badge&logo=linkedin&logoColor=FF6240)](https://www.linkedin.com/in/gaurav-joshi-453b55310)
-[![Email](https://img.shields.io/badge/Email-07080F?style=for-the-badge&logo=gmail&logoColor=FF6240)](mailto:gauravj121232@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=3FB950)](https://github.com/GoLu-Jii)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=3FB950)](https://www.linkedin.com/in/gaurav-joshi-453b55310)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=3FB950)](mailto:gauravj121232@gmail.com)
 
 </div>
 
