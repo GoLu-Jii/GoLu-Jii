@@ -1,0 +1,29 @@
+<svg width="680" height="460" viewBox="0 0 680 460" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="680" height="460" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect x="0" y="0" width="680" height="34" rx="10" fill="#161b22"/>
+<rect x="0" y="24" width="680" height="10" fill="#161b22"/>
+<circle cx="26" cy="17" r="6" fill="#ff5f56"/>
+<circle cx="46" cy="17" r="6" fill="#ffbd2e"/>
+<circle cx="66" cy="17" r="6" fill="#27c93f"/>
+<text x="340" y="21" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">golu-jii@arch: zsh</text>
+
+<text x="30" y="68" font-family="monospace" font-size="14" fill="#3fb950">golu-jii@arch ~ %</text>
+<text x="170" y="68" font-family="monospace" font-size="14" fill="#c9d1d9">whoami</text>
+
+<text x="30" y="98" font-family="monospace" font-size="14" fill="#58a6ff">gaurav-joshi</text>
+
+<text x="30" y="132" font-family="monospace" font-size="14" fill="#3fb950">golu-jii@arch ~ %</text>
+<text x="170" y="132" font-family="monospace" font-size="14" fill="#c9d1d9">cat .plan</text>
+
+<text x="30" y="162" font-family="monospace" font-size="13.5" fill="#8b949e">mostly RAG pipelines, FastAPI backends, and LLM-glued systems.</text>
+<text x="30" y="186" font-family="monospace" font-size="13.5" fill="#8b949e">also shipped a deterministic code-explainer that doesn't hallucinate.</text>
+
+<text x="30" y="280" font-family="monospace" font-weight="700" font-size="58" fill="#3fb950">GAURAV JOSHI</text>
+
+<text x="30" y="316" font-family="monospace" font-size="16" fill="#8b949e">ai/ml engineer  ·  full-stack builder</text>
+
+<text x="30" y="380" font-family="monospace" font-size="14" fill="#3fb950">golu-jii@arch ~ %</text>
+<rect x="170" y="368" width="9" height="16" fill="#3fb950"/>
+
+<text x="30" y="438" font-family="monospace" font-size="11.5" fill="#484f58">b.tech cse (ai/ml) @ gehu  ·  groq + fastapi + rag  ·  bhimtal, india</text>
+</svg>
