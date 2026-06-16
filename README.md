@@ -1,16 +1,94 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**GoLu-Jii/GoLu-Jii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
+$ whoami
+> Gaurav Joshi
+$ cat status.txt
+> AI/ML Engineer in training | B.Tech CSE (AI/ML) @ GEHU
+$ ls currently_building/
+> HaathSe   CODE-Sherpa   PDF-RAG-APP
+```
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+<div align="center">
+
+### ⚡ deterministic structure. ai-narrated explanation.
+
+I build things at the intersection of **LLMs, RAG pipelines, and full-stack systems** — shipping live, not just prototyping.
+
+</div>
+
+<br>
+
+## `~/projects --live`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[CODE Sherpa](https://code-sherpa-mu.vercel.app/)** 🟢 `live`
+
+Deterministic code understanding engine — Python AST as ground truth, Groq LLM as narrator. Hybrid RAG (file + function level chunking) for codebase Q&A.
+
+`Python` `FastAPI` `ChromaDB` `React` `Groq`
+
+[`GitHub`](https://github.com/GoLu-Jii/CODE_Sherpa) · [`Demo Video`](https://youtu.be/iz0Rq9VYDA4)
+
+</td>
+<td width="50%" valign="top">
+
+**[PDF-RAG-APP](https://huggingface.co/spaces/Joshijii/PDF-RAG-APP)** 🟢 `live`
+
+End-to-end RAG system for PDF Q&A. Citation-enforced answers, score-threshold retrieval, Qdrant vector search.
+
+`FastAPI` `Qdrant` `Groq` `Docker`
+
+[`Live Demo`](https://huggingface.co/spaces/Joshijii/PDF-RAG-APP)
+
+</td>
+</tr>
+</table>
+
+**HaathSe** 🟡 `in progress` — QR-based artisan identity & product traceability platform for India's handloom sector. Built during TBI-GEU SIP 2026.
+
+<br>
+
+## `~/stack`
+
+<div align="center">
+
+`Python` `C++` `JavaScript` `SQL`&nbsp; · &nbsp;`FastAPI` `PostgreSQL` `SQLAlchemy`&nbsp; · &nbsp;`RAG` `ChromaDB` `Qdrant` `Groq`&nbsp; · &nbsp;`Next.js` `React` `Tailwind`
+
+</div>
+
+<br>
+
+## `~/stats`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=07080F&title_color=FF6240&icon_color=FF6240&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=midnight-purple&hide_border=true&bg_color=07080F&title_color=FF6240&text_color=c9d1d9" width="38%" />
+
+<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&hide_border=true&background=07080F&ring=FF6240&fire=FF6240&currStreakLabel=FF6240" width="60%" />
+
+</div>
+
+<br>
+
+## `~/connect`
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-07080F?style=for-the-badge&logo=github&logoColor=FF6240)](https://github.com/GoLu-Jii)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-07080F?style=for-the-badge&logo=linkedin&logoColor=FF6240)](https://www.linkedin.com/in/gaurav-joshi-453b55310)
+[![Email](https://img.shields.io/badge/Email-07080F?style=for-the-badge&logo=gmail&logoColor=FF6240)](mailto:gauravj121232@gmail.com)
+
+</div>
+
+<div align="center">
+<sub>building in public from Bhimtal, Uttarakhand 🇮🇳</sub>
+</div>
