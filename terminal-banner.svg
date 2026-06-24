@@ -1,80 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="100%" height="100%" role="img" aria-label="Gaurav Joshi terminal boot">
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #8b949e; font-weight: 500; }
-    .code { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 15px; }
-    .green { fill: #3fb950; font-weight: 600; }
-    .blue { fill: #58a6ff; font-weight: 600; }
-    .white { fill: #c9d1d9; }
-    .gray { fill: #8b949e; }
-    .brand { font-size: 48px; font-weight: 800; fill: #3fb950; letter-spacing: 1.5px; }
-    .footer { font-size: 12px; fill: #484f58; }
-    
-    /* Choreography System */
-    .pop { opacity: 0; animation: popIn 0.01s forwards; }
-    @keyframes popIn { to { opacity: 1; } }
-
-    .fade { opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
-    @keyframes fadeIn { to { opacity: 1; } }
-
-    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    .cursor { animation: blink 1s infinite; }
-
-    /* Shutter Typing Keyframes */
-    .s1 { animation: type1 0.35s linear 0.5s both; }
-    .s2 { animation: type2 0.45s linear 1.5s both; }
-    .s3 { animation: type3 0.5s linear 2.6s both; }
-    .s4 { animation: type4 0.55s linear 3.75s both; }
-
-    @keyframes type1 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(65px); opacity: 1; } 100% { transform: translateX(65px); opacity: 0; } }
-    @keyframes type2 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(100px); opacity: 1; } 100% { transform: translateX(100px); opacity: 0; } }
-    @keyframes type3 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(110px); opacity: 1; } 100% { transform: translateX(110px); opacity: 0; } }
-    @keyframes type4 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(120px); opacity: 1; } 100% { transform: translateX(120px); opacity: 0; } }
+    text { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+    .pr  { fill: #3fb950; font-weight: 600; }
+    .cmd { fill: #c9d1d9; font-weight: 600; }
+    .blu { fill: #58a6ff; font-weight: 600; }
+    .gry { fill: #8b949e; }
+    .big { font-size: 52px; font-weight: 800; fill: #3fb950; letter-spacing: 1.5px; }
   </style>
 
-  <rect x="0" y="0" width="800" height="500" rx="0" fill="#0d1117" />
+  <defs>
+    <clipPath id="c1"><rect x="34" y="65" width="0" height="26"><animate attributeName="width" from="0" to="280" begin="0.4s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="34" y="95" width="0" height="26"><animate attributeName="width" from="0" to="140" begin="1.0s" dur="0.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="34" y="135" width="0" height="26"><animate attributeName="width" from="0" to="320" begin="1.5s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="34" y="165" width="0" height="26"><animate attributeName="width" from="0" to="370" begin="2.1s" dur="0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="34" y="205" width="0" height="26"><animate attributeName="width" from="0" to="330" begin="2.7s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="34" y="235" width="0" height="26"><animate attributeName="width" from="0" to="300" begin="3.3s" dur="0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="34" y="275" width="0" height="26"><animate attributeName="width" from="0" to="340" begin="3.9s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="34" y="305" width="0" height="26"><animate attributeName="width" from="0" to="330" begin="4.5s" dur="0.3s" fill="freeze"/></rect></clipPath>
+  </defs>
 
-  <circle cx="24" cy="22" r="6" fill="#ff5f56" />
-  <circle cx="44" cy="22" r="6" fill="#ffbd2e" />
-  <circle cx="64" cy="22" r="6" fill="#27c93f" />
-  <text x="400" y="26" text-anchor="middle" class="title">golu-jii@arch: zsh</text>
+  <rect x="0" y="0" width="840" height="520" rx="0" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <rect x="0" y="0" width="840" height="38" fill="#161b22" />
+  <line x1="0" y1="38" x2="840" y2="38" stroke="#21262d" stroke-width="1"/>
 
-  <g class="code">
-    <text x="35" y="75"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">whoami</tspan></text>
-    <g class="s1">
-      <rect x="190" y="59" width="9" height="18" fill="#3fb950" />
-      <rect x="199" y="58" width="250" height="22" fill="#0d1117" />
-    </g>
-    <text x="35" y="100" class="blue pop" style="animation-delay: 0.9s;">gaurav-joshi</text>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="6" fill="#27c93f"/>
+  <text x="420" y="24" text-anchor="middle" class="gry" font-size="13">golu-jii@arch: zsh</text>
 
+  <g clip-path="url(#c1)"><text x="34" y="85" font-size="16"><tspan class="pr">golu-jii@arch ~ %</tspan><tspan class="cmd"> whoami</tspan></text></g>
+  <g clip-path="url(#c2)"><text x="34" y="115" font-size="16" class="blu">gaurav-joshi</text></g>
 
-    <text x="35" y="140" class="pop" style="animation-delay: 1.3s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $ROLE</tspan></text>
-    <g class="s2">
-      <rect x="190" y="124" width="9" height="18" fill="#3fb950" />
-      <rect x="199" y="123" width="250" height="22" fill="#0d1117" />
-    </g>
-    <text x="35" y="165" class="gray pop" style="animation-delay: 2.0s;">ai/ml engineer | full-stack builder</text>
+  <g clip-path="url(#c3)"><text x="34" y="155" font-size="16"><tspan class="pr">golu-jii@arch ~ %</tspan><tspan class="cmd"> echo $ROLE</tspan></text></g>
+  <g clip-path="url(#c4)"><text x="34" y="185" font-size="16" class="gry">ai/ml engineer | full-stack builder</text></g>
 
+  <g clip-path="url(#c5)"><text x="34" y="225" font-size="16"><tspan class="pr">golu-jii@arch ~ %</tspan><tspan class="cmd"> echo $STACK</tspan></text></g>
+  <g clip-path="url(#c6)"><text x="34" y="255" font-size="16" class="gry">rag | fastapi | groq | react</text></g>
 
-    <text x="35" y="205" class="pop" style="animation-delay: 2.4s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STACK</tspan></text>
-    <g class="s3">
-      <rect x="190" y="189" width="9" height="18" fill="#3fb950" />
-      <rect x="199" y="188" width="250" height="22" fill="#0d1117" />
-    </g>
-    <text x="35" y="230" class="gray pop" style="animation-delay: 3.15s;">rag | fastapi | groq | react</text>
+  <g clip-path="url(#c7)"><text x="34" y="295" font-size="16"><tspan class="pr">golu-jii@arch ~ %</tspan><tspan class="cmd"> echo $STATUS</tspan></text></g>
+  <g clip-path="url(#c8)"><text x="34" y="325" font-size="16" class="gry">building before the degree ends</text></g>
 
-
-    <text x="35" y="270" class="pop" style="animation-delay: 3.55s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STATUS</tspan></text>
-    <g class="s4">
-      <rect x="190" y="254" width="9" height="18" fill="#3fb950" />
-      <rect x="199" y="253" width="250" height="22" fill="#0d1117" />
-    </g>
-    <text x="35" y="295" class="gray pop" style="animation-delay: 4.35s;">building before the degree ends</text>
-
-
-    <text x="35" y="335" class="pop" style="animation-delay: 4.75s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="green cursor">█</tspan></text>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.7s" fill="freeze"/>
+    <text x="32" y="415" class="big">GAURAV JOSHI</text>
+    <text x="34" y="455" font-size="13" class="gry">b.tech cse (ai/ml) @ gehu | groq + fastapi + rag | bhimtal, india</text>
     
-
-    <text x="35" y="415" class="brand fade" style="animation-delay: 5.3s;">GAURAV JOSHI</text>
-    <text x="35" y="465" class="footer fade" style="animation-delay: 5.3s;">b.tech cse (ai/ml) @ gehu | groq + fastapi + rag | bhimtal, india</text>
+    <text x="34" y="495" font-size="16"><tspan class="pr">golu-jii@arch ~ %</tspan></text>
+    <rect x="208" y="480" width="10" height="18" fill="#3fb950">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" begin="5.8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
