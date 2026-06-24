@@ -9,46 +9,72 @@
     .brand { font-size: 48px; font-weight: 800; fill: #3fb950; letter-spacing: 1.5px; }
     .footer { font-size: 12px; fill: #484f58; }
     
+    /* Choreography System */
+    .pop { opacity: 0; animation: popIn 0.01s forwards; }
+    @keyframes popIn { to { opacity: 1; } }
+
+    .fade { opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    .cursor { fill: #3fb950; animation: blink 1s infinite; }
+    .cursor { animation: blink 1s infinite; }
+
+    /* Shutter Typing Keyframes */
+    .s1 { animation: type1 0.35s linear 0.5s both; }
+    .s2 { animation: type2 0.45s linear 1.5s both; }
+    .s3 { animation: type3 0.5s linear 2.6s both; }
+    .s4 { animation: type4 0.55s linear 3.75s both; }
+
+    @keyframes type1 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(65px); opacity: 1; } 100% { transform: translateX(65px); opacity: 0; } }
+    @keyframes type2 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(100px); opacity: 1; } 100% { transform: translateX(100px); opacity: 0; } }
+    @keyframes type3 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(110px); opacity: 1; } 100% { transform: translateX(110px); opacity: 0; } }
+    @keyframes type4 { 0% { transform: translateX(0); opacity: 0; } 1% { transform: translateX(0); opacity: 1; } 95% { transform: translateX(120px); opacity: 1; } 100% { transform: translateX(120px); opacity: 0; } }
   </style>
 
-  <!-- Terminal Background forced to sharp rx=0 to kill white corner bleed -->
   <rect x="0" y="0" width="800" height="500" rx="0" fill="#0d1117" />
 
-  <!-- Window Controls -->
   <circle cx="24" cy="22" r="6" fill="#ff5f56" />
   <circle cx="44" cy="22" r="6" fill="#ffbd2e" />
   <circle cx="64" cy="22" r="6" fill="#27c93f" />
-  
-  <!-- Title Bar -->
   <text x="400" y="26" text-anchor="middle" class="title">golu-jii@arch: zsh</text>
 
-  <!-- Terminal Body -->
   <g class="code">
-    <!-- whoami -->
     <text x="35" y="75"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">whoami</tspan></text>
-    <text x="35" y="100" class="blue">gaurav-joshi</text>
+    <g class="s1">
+      <rect x="190" y="59" width="9" height="18" fill="#3fb950" />
+      <rect x="199" y="58" width="250" height="22" fill="#0d1117" />
+    </g>
+    <text x="35" y="100" class="blue pop" style="animation-delay: 0.9s;">gaurav-joshi</text>
 
-    <!-- ROLE -->
-    <text x="35" y="140"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $ROLE</tspan></text>
-    <text x="35" y="165" class="gray">ai/ml engineer | full-stack builder</text>
 
-    <!-- STACK -->
-    <text x="35" y="205"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STACK</tspan></text>
-    <text x="35" y="230" class="gray">rag | fastapi | groq | react</text>
+    <text x="35" y="140" class="pop" style="animation-delay: 1.3s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $ROLE</tspan></text>
+    <g class="s2">
+      <rect x="190" y="124" width="9" height="18" fill="#3fb950" />
+      <rect x="199" y="123" width="250" height="22" fill="#0d1117" />
+    </g>
+    <text x="35" y="165" class="gray pop" style="animation-delay: 2.0s;">ai/ml engineer | full-stack builder</text>
 
-    <!-- STATUS -->
-    <text x="35" y="270"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STATUS</tspan></text>
-    <text x="35" y="295" class="gray">building before the degree ends</text>
 
-    <!-- Live Prompt Buffer -->
-    <text x="35" y="335"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="cursor">█</tspan></text>
+    <text x="35" y="205" class="pop" style="animation-delay: 2.4s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STACK</tspan></text>
+    <g class="s3">
+      <rect x="190" y="189" width="9" height="18" fill="#3fb950" />
+      <rect x="199" y="188" width="250" height="22" fill="#0d1117" />
+    </g>
+    <text x="35" y="230" class="gray pop" style="animation-delay: 3.15s;">rag | fastapi | groq | react</text>
+
+
+    <text x="35" y="270" class="pop" style="animation-delay: 3.55s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STATUS</tspan></text>
+    <g class="s4">
+      <rect x="190" y="254" width="9" height="18" fill="#3fb950" />
+      <rect x="199" y="253" width="250" height="22" fill="#0d1117" />
+    </g>
+    <text x="35" y="295" class="gray pop" style="animation-delay: 4.35s;">building before the degree ends</text>
+
+
+    <text x="35" y="335" class="pop" style="animation-delay: 4.75s;"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="green cursor">█</tspan></text>
     
-    <!-- Giant Output -->
-    <text x="35" y="415" class="brand">GAURAV JOSHI</text>
 
-    <!-- Sub-footer (Dots also swapped for pipes) -->
-    <text x="35" y="465" class="footer">b.tech cse (ai/ml) @ gehu | groq + fastapi + rag | bhimtal, india</text>
+    <text x="35" y="415" class="brand fade" style="animation-delay: 5.3s;">GAURAV JOSHI</text>
+    <text x="35" y="465" class="footer fade" style="animation-delay: 5.3s;">b.tech cse (ai/ml) @ gehu | groq + fastapi + rag | bhimtal, india</text>
   </g>
 </svg>
