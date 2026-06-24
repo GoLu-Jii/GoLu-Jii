@@ -1,71 +1,54 @@
-<svg width="680" height="400" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>Gaurav Joshi terminal banner</title>
-<desc>Terminal-style GitHub profile banner for Gaurav Joshi, AI/ML engineer and full-stack builder</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #8b949e; font-weight: 500; }
+    .code { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 15px; }
+    .green { fill: #3fb950; font-weight: 600; }
+    .blue { fill: #58a6ff; font-weight: 600; }
+    .white { fill: #c9d1d9; }
+    .gray { fill: #8b949e; }
+    .brand { font-size: 48px; font-weight: 800; fill: #3fb950; letter-spacing: 1.5px; }
+    .footer { font-size: 12px; fill: #484f58; }
+    
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .cursor { fill: #3fb950; animation: blink 1s infinite; }
+  </style>
 
-<style>
-@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-@keyframes type1 { from{width:0} to{width:148px} }
-@keyframes type2 { from{width:0} to{width:104px} }
-@keyframes type3 { from{width:0} to{width:272px} }
-@keyframes type4 { from{width:0} to{width:232px} }
-@keyframes type5 { from{width:0} to{width:208px} }
-@keyframes fadein { from{opacity:0} to{opacity:1} }
-</style>
+  <!-- Terminal Background forced to sharp rx=0 to kill white corner bleed -->
+  <rect x="0" y="0" width="800" height="500" rx="0" fill="#0d1117" />
 
-<defs>
-  <clipPath id="c1"><rect x="170" y="55" width="148" height="18"/></clipPath>
-  <clipPath id="c2"><rect x="170" y="107" width="104" height="18"/></clipPath>
-  <clipPath id="c3"><rect x="30" y="136" width="272" height="18"/></clipPath>
-  <clipPath id="c4"><rect x="170" y="159" width="232" height="18"/></clipPath>
-  <clipPath id="c5"><rect x="30" y="184" width="208" height="18"/></clipPath>
-</defs>
+  <!-- Window Controls -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f56" />
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e" />
+  <circle cx="64" cy="22" r="6" fill="#27c93f" />
+  
+  <!-- Title Bar -->
+  <text x="400" y="26" text-anchor="middle" class="title">golu-jii@arch: zsh</text>
 
-<!-- Window chrome -->
-<rect x="0" y="0" width="680" height="400" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-<rect x="0" y="0" width="680" height="34" rx="10" fill="#161b22"/>
-<rect x="0" y="24" width="680" height="10" fill="#161b22"/>
-<circle cx="26" cy="17" r="6" fill="#ff5f56"/>
-<circle cx="46" cy="17" r="6" fill="#ffbd2e"/>
-<circle cx="66" cy="17" r="6" fill="#27c93f"/>
-<text x="340" y="21" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">golu-jii@arch: zsh</text>
+  <!-- Terminal Body -->
+  <g class="code">
+    <!-- whoami -->
+    <text x="35" y="75"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">whoami</tspan></text>
+    <text x="35" y="100" class="blue">gaurav-joshi</text>
 
-<!-- whoami -->
-<text x="30" y="68" font-family="monospace" font-size="14" fill="#3fb950">golu-jii@arch ~ %</text>
-<g clip-path="url(#c1)">
-  <text x="170" y="68" font-family="monospace" font-size="14" fill="#c9d1d9" style="animation:type1 0.5s steps(12,end) 0.3s both;">whoami</text>
-</g>
-<text x="30" y="92" font-family="monospace" font-size="14" fill="#58a6ff" style="animation:fadein 0s 0.85s both;opacity:0">gaurav-joshi</text>
+    <!-- ROLE -->
+    <text x="35" y="140"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $ROLE</tspan></text>
+    <text x="35" y="165" class="gray">ai/ml engineer | full-stack builder</text>
 
-<!-- echo $ROLE -->
-<text x="30" y="116" font-family="monospace" font-size="14" fill="#3fb950" style="animation:fadein 0s 1.2s both;opacity:0">golu-jii@arch ~ %</text>
-<g clip-path="url(#c2)">
-  <text x="170" y="116" font-family="monospace" font-size="14" fill="#c9d1d9" style="animation:type2 0.5s steps(11,end) 1.2s both;">echo $ROLE</text>
-</g>
-<g clip-path="url(#c3)">
-  <text x="30" y="140" font-family="monospace" font-size="13.5" fill="#8b949e" style="animation:type3 0.6s steps(22,end) 1.8s both;">ai/ml engineer · full-stack builder</text>
-</g>
+    <!-- STACK -->
+    <text x="35" y="205"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STACK</tspan></text>
+    <text x="35" y="230" class="gray">rag | fastapi | groq | react</text>
 
-<!-- echo $STACK -->
-<text x="30" y="164" font-family="monospace" font-size="14" fill="#3fb950" style="animation:fadein 0s 2.6s both;opacity:0">golu-jii@arch ~ %</text>
-<g clip-path="url(#c4)">
-  <text x="170" y="164" font-family="monospace" font-size="14" fill="#c9d1d9" style="animation:type4 0.6s steps(20,end) 2.6s both;">echo $STACK</text>
-</g>
-<g clip-path="url(#c5)">
-  <text x="30" y="188" font-family="monospace" font-size="13.5" fill="#8b949e" style="animation:type5 0.6s steps(18,end) 3.4s both;">rag · fastapi · groq · react</text>
-</g>
+    <!-- STATUS -->
+    <text x="35" y="270"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="white">echo $STATUS</tspan></text>
+    <text x="35" y="295" class="gray">building before the degree ends</text>
 
-<!-- echo $STATUS -->
-<text x="30" y="212" font-family="monospace" font-size="14" fill="#3fb950" style="animation:fadein 0s 4.2s both;opacity:0">golu-jii@arch ~ %</text>
-<text x="170" y="212" font-family="monospace" font-size="14" fill="#c9d1d9" style="animation:fadein 0s 4.2s both;opacity:0">echo $STATUS</text>
-<text x="30" y="236" font-family="monospace" font-size="13.5" fill="#8b949e" style="animation:fadein 0s 4.9s both;opacity:0">building before the degree ends</text>
+    <!-- Live Prompt Buffer -->
+    <text x="35" y="335"><tspan class="green">golu-jii@arch ~ % </tspan><tspan class="cursor">█</tspan></text>
+    
+    <!-- Giant Output -->
+    <text x="35" y="415" class="brand">GAURAV JOSHI</text>
 
-<!-- Blinking cursor -->
-<text x="30" y="260" font-family="monospace" font-size="14" fill="#3fb950" style="animation:fadein 0s 5.4s both;opacity:0">golu-jii@arch ~ %</text>
-<rect x="170" y="248" width="9" height="16" fill="#3fb950" style="animation:fadein 0s 5.4s both,blink 1s step-end 5.4s infinite;opacity:0"/>
-
-<!-- Name -->
-<text x="30" y="330" font-family="monospace" font-weight="700" font-size="52" fill="#3fb950" style="animation:fadein 0.4s ease 5.8s both;opacity:0">GAURAV JOSHI</text>
-
-<!-- Footer -->
-<text x="30" y="384" font-family="monospace" font-size="11.5" fill="#484f58" style="animation:fadein 0.4s ease 6.2s both;opacity:0">b.tech cse (ai/ml) @ gehu  ·  groq + fastapi + rag  ·  bhimtal, india</text>
+    <!-- Sub-footer (Dots also swapped for pipes) -->
+    <text x="35" y="465" class="footer">b.tech cse (ai/ml) @ gehu | groq + fastapi + rag | bhimtal, india</text>
+  </g>
 </svg>
