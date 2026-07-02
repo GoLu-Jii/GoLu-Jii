@@ -13,12 +13,12 @@
 ![Qdrant](https://img.shields.io/badge/Qdrant-161B22?style=flat-square&logo=qdrant&logoColor=DC244C&labelColor=0D1117)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-161B22?style=flat-square&logo=databricks&logoColor=FF6F00&labelColor=0D1117)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-161B22?style=flat-square&logo=python&logoColor=D71F00&labelColor=0D1117)
-
+<br>
 ![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB&labelColor=0D1117)
 ![C++](https://img.shields.io/badge/C++-161B22?style=flat-square&logo=cplusplus&logoColor=00599C&labelColor=0D1117)
 ![SQL](https://img.shields.io/badge/SQL-161B22?style=flat-square&logo=postgresql&logoColor=4479A1&labelColor=0D1117)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=316192&labelColor=0D1117)
-
+<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E&labelColor=0D1117)
 ![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0D1117)
 ![Next.js](https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=0D1117)
@@ -32,10 +32,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=dark&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=dark&bg_color=0D1117&title_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0" width="38%" />
+<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=dark&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0&v=1" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=dark&bg_color=0D1117&title_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0&v=1" width="38%" />
 
-<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&border=21262d&border_radius=0" width="60%" />
+<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&border=21262d&border_radius=0&v=1" width="60%" />
 
 </div>
 
