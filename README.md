@@ -29,14 +29,11 @@
 <br>
 
 ## `~/stats`
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=GoLu-Jii&show_icons=true&theme=dark&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0&v=1" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GoLu-Jii&layout=compact&theme=dark&bg_color=0D1117&title_color=3FB950&text_color=c9d1d9&border_color=21262d&border_radius=0&v=1" width="38%" />
+![metrics](https://raw.githubusercontent.com/GoLu-Jii/GoLu-Jii/main/metrics.terminal.svg)
 
-<img src="https://streak-stats.demolab.com/?user=GoLu-Jii&theme=dark&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&border=21262d&border_radius=0&v=1" width="60%" />
-
+</div>
 </div>
 
 <br>
