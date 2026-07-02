@@ -31,7 +31,7 @@
 ## `~/stats`
 <div align="center">
 
-![metrics](https://raw.githubusercontent.com/GoLu-Jii/GoLu-Jii/main/metrics.terminal.svg)
+[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=GoLu-Jii)](https://github.com/stats-organization/github-stats-extended)
 
 </div>
 </div>
